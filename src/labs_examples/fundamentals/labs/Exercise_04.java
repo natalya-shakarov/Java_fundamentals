@@ -16,7 +16,14 @@ public class Exercise_04 {
         System.out.println("int i is: " + i);
 
         // write your code below
-
+        boolean b = false;
+        System.out.println("boolean b is: " + b);
+        float f = 3.1f;
+        System.out.println("natalya instructs float f is: " + f);
+        String s = "Spring is here";
+        System.out.println("natalya says: " +s);
+        char g = 'f';
+        System.out.println("char is: " + g);
     }
 
 }
