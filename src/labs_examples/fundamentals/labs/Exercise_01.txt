@@ -19,6 +19,98 @@ Fundamentals Exercise 1: CLI
          c. Use $ grep to search for a word inside file
 
 Example Output (pwd):
-    1. Cadens-MacBook-Pro:CodingNomads cadenmackenzie$ pwd
-       /Users/cadenmackenzie/Documents/CodingNomads
+    C:\Users\natal\Documents
+    λ mkdir Terminal_testing
+
+    C:\Users\natal\Documents
+    λ rmdir Terminal_testing\
+
+    C:\Users\natal\Documents
+    λ cd CodingNomads\
+
+    C:\Users\natal\Documents\CodingNomads
+    λ mkdir Terminal_testing
+
+    C:\Users\natal\Documents\CodingNomads
+    λ cd Terminal_testing\
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing
+    λ touch FirstFile.txt
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing
+    λ touch SecondFile.txt
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing
+    λ touch ThirdFile.txt
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing
+    λ pwd
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing
+    λ ls -as
+    total 0
+    0 ./  0 ../  0 FirstFile.txt  0 SecondFile.txt  0 ThirdFile.txt
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing
+    λ mkdir NewFolder
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing
+    λ cp FirstFile.txt NewFolder\
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing
+    λ mv SecondFile.txt NewFolder\
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing
+    λ rm FirstFile.txt
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing
+    λ cd NewFolder\
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing\NewFolder
+    λ dir
+     Volume in drive C is Local Disk
+     Volume Serial Number is AA1B-997A
+
+     Directory of C:\Users\natal\Documents\CodingNomads\Terminal_testing\NewFolder
+
+    01/06/2021  02:54 PM    <DIR>          .
+    01/06/2021  02:54 PM    <DIR>          ..
+    01/06/2021  02:54 PM                 0 FirstFile.txt
+    01/06/2021  02:48 PM                 0 SecondFile.txt
+                   2 File(s)              0 bytes
+                   2 Dir(s)  53,686,964,224 bytes free
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing\NewFolder
+    λ rm FirstFile.txt SecondFile.txt
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing\NewFolder
+    λ cd
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing\NewFolder
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing\NewFolder
+    λ cd ..
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing
+    λ rmdir NewFolder\
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing
+    λ vim FourthFile.txt
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing
+    λ cat FourthFile.txt
+            sentence one.
+            sentence two.
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing
+    λ grep two
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing
+    λ grep two FourthFile.txt
+            sentence two.
+
+    C:\Users\natal\Documents\CodingNomads\Terminal_testing
+    λ
+
+
 
