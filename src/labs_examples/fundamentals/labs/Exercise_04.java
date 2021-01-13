@@ -18,6 +18,11 @@ public class Exercise_04 {
         // write your code below
         boolean b = false;
         System.out.println("boolean b is: " + b);
+
+        System.out.print("boolean b is: ");
+        System.out.print(b);
+        System.out.println();
+
         float f = 3.1f;
         System.out.println("natalya instructs float f is: " + f);
         String s = "Spring is here";

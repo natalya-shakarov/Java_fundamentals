@@ -15,10 +15,7 @@ Initializing git folder
             git remote add <ANY_NAME> <URL_OF_NEW_GITHUB_REPO.git>
         d. Push commit file to Github
         e. Practice the following git flow until you feel comfortable:
-            i.   Create or modify file
-            ii.  Add file(s)
-            iii. Commit file(s)
-            iv.  Push file(s) to Github repository
+
 
 Adding a remote
     1. Create new personal repository on Github named "git_practice_2".

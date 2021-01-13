@@ -17,6 +17,11 @@ public class Exercise_01 {
     public static void main(String[] args) {
 
         // write code here
+        int apple = 1;
+        double df = 256.222;
+        float rt = 12.12f;
+        char rob = 'r';
+        System.out.println(apple + " " + df + " " + rt + " " + rob + " ");
 
     }
 }
