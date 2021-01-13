@@ -24,6 +24,15 @@ public class Exercise_02 {
     public static void main(String[] args) {
 
         // write code here
+        int app = 10;
+        double aa = app;
+        System.out.println(aa);
+
+        double vh = 10.5;
+        int hh = (int)vh;
+        System.out.println(hh);
+        // information is lost in the narrowing direction. Int is a smaller data type than Double therefore the value in double decreased from 10.5 to 10 when cast into int data type.
+
 
     }
 }
