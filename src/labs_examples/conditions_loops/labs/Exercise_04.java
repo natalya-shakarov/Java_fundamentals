@@ -8,5 +8,10 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_04 {
+    public static void main(String[] args) {
+        for(int count = 2; count <= 100; count += 2){
+            System.out.println("print count " + count);
+        }
+    }
 
 }

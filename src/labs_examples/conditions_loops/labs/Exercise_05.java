@@ -1,5 +1,7 @@
 package labs_examples.conditions_loops.labs;
 
+import java.util.Scanner;
+
 /**
  * Conditions and Loops Exercise 5: Calculator
  *
@@ -16,4 +18,17 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_05 {
+    public static void main(String[] args) {
+        System.out.print("enter upper number: ");
+        Scanner scanner = new Scanner(System.in);
+        int upper = scanner.nextInt();
+        System.out.print("enter lower number: ");
+        int lower = scanner.nextInt();
+        int sum = 0;
+        for (int count = lower; count <= upper; count++){
+            sum += count;
+        } System.out.println(sum);
+        double average = (upper + lower)/2.0;
+        System.out.println(average);
+    }
 }
