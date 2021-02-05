@@ -9,5 +9,15 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_05 {
+    public static void main(String[] args) {
 
+        int[] test = new int[12];
+        for (int i = 0; i < test.length; i+=2) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+        for (int i = test.length-2; i >= 0; i-=2) {
+            System.out.print(i + " ");
+        }
+    }
 }

@@ -1,5 +1,7 @@
 package labs_examples.arrays.labs;
 
+import java.util.ArrayList;
+
 /**
  *  ArrayLists
  *
@@ -10,4 +12,22 @@ package labs_examples.arrays.labs;
  *
  */
 public class Exercise_07 {
+    public static void main(String[] args) {
+        ArrayList <String> world = new ArrayList<>();
+        world.add("Hello");
+        world.add("world");
+        world.add("!!");
+        world.add("!");
+
+        System.out.println(world + " these are all elements in array list world");
+        System.out.println(world.get(0) + "  -->index 0 returns 1st element in array list world");
+        System.out.println(world.size() + " is the number of elements in array list world");
+        System.out.println();
+        world.remove(2);
+        System.out.println(world + "  -->index 2 removes element 3 from array list world");
+        world.clone();
+        System.out.println(world + "  creates a copy of array list world");
+    }
+
+
 }
