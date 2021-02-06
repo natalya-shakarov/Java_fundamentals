@@ -24,7 +24,10 @@ public class Exercise_03 {
             for (int j = 0; j < num[i].length; j++) {
                 temp += 3;
                 num[i][j] = temp;
-                System.out.print(num[i][j] + "-");
+                System.out.print(num[i][j]);
+                if (j < num[i].length - 1) {
+                    System.out.print("-");
+                }
             }
             System.out.println();
         }

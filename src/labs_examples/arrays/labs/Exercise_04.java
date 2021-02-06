@@ -17,12 +17,16 @@ public class Exercise_04 {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 array[i][j] = i * j;
+               // if (j < array[i].length - 1) {
+                 //   System.out.print("");
+                //}
             }
         }
 
         for (int [] outer : array) {
             for (int j : outer) {
                 System.out.print(j + " , ");
+
 
             }
             System.out.println();
