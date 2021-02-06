@@ -15,11 +15,11 @@ import java.util.Scanner;
 public class Exercise_01 {
     public static void main(String[] args) {
         double[] array = new double[10];
-
+        System.out.println("enter ten numbers, you may include decimals");
         Scanner scan = new Scanner(System.in);
         for (int i = 0; i < array.length; i++) {
-            double number = scan.nextDouble();
-            array[i] = number;
+            double number;
+            array[i] = scan.nextDouble();
         }
         double sum = 0;
         for (double number : array) {
