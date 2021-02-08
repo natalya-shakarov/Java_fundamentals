@@ -1,5 +1,7 @@
 package labs_examples.arrays.labs;
 
+import java.awt.geom.PathIterator;
+
 /**
  *  Traversing Arrays Backwards
  *
@@ -10,7 +12,7 @@ package labs_examples.arrays.labs;
 
 public class Exercise_05 {
     public static void main(String[] args) {
-
+        
         int[] test = new int[12];
         for (int i = 0; i < test.length; i+=2) {
             System.out.print(i + " ");
