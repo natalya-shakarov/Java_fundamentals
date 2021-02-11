@@ -9,6 +9,11 @@ public class Student {
     int age;
     String[] courses = new String[2];
 
+    Student(String a, String b) {
+        firstName = a;
+        lastName = b;
+    }
+
     String getFullName() {
         return firstName + " " + lastName;
     }
