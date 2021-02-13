@@ -20,4 +20,17 @@ public class Airplane {
         this.engine = engine;
         this.landingGear = landingGear;
     }
+
+    @Override
+    public String toString() {
+        return "Airplane{" +
+                "manufacturer='" + manufacturer + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", cockpit=" + cockpit +
+                ", cabin=" + cabin +
+                ", engine=" + engine +
+                ", landingGear=" + landingGear +
+                '}';
+    }
 }

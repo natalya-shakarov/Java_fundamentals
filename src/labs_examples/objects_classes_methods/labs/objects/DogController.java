@@ -5,5 +5,8 @@ public class DogController {
         Dog firstDog = new Dog("Fido");
         Dog secondDog = new Dog("Lucy", 20);
         Dog thirdDog = new Dog("Spike", 50, "brown");
+        System.out.println(firstDog);
+        System.out.println(secondDog);
+        System.out.println(thirdDog);
     }
 }

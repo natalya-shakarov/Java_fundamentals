@@ -10,4 +10,11 @@ public class AirplaneLandingGear {
         this.wheelsRadiusMeters = wheelsRadiusMeters;
     }
 
+    @Override
+    public String toString() {
+        return "AirplaneLandingGear{" +
+                "numberOfWheels=" + numberOfWheels +
+                ", wheelsRadiusMeters=" + wheelsRadiusMeters +
+                '}';
+    }
 }

@@ -8,6 +8,10 @@ public class ObjectsExercises {
         AirplaneLandingGear myAirplaneLandingGear =new AirplaneLandingGear(8, 2.5);
         Airplane myAirplane = new Airplane("Boeing", "747", 2021,
                 myAirplaneCockpit, myAirplaneCabin, myAirplaneEngine, myAirplaneLandingGear);
-
+        System.out.println(myAirplane.toString());
+        System.out.println(myAirplaneCabin.toString());
+        System.out.println(myAirplaneCockpit.toString());
+        System.out.println(myAirplaneEngine.toString());
+        System.out.println(myAirplaneLandingGear.toString());
     }
 }

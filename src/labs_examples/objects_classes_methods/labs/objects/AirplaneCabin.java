@@ -12,4 +12,12 @@ public class AirplaneCabin {
         this.numberOfWindows = numberOfWindows;
     }
 
+    @Override
+    public String toString() {
+        return "AirplaneCabin{" +
+                "numberOfSeats=" + numberOfSeats +
+                ", numberOfBathrooms=" + numberOfBathrooms +
+                ", numberOfWindows=" + numberOfWindows +
+                '}';
+    }
 }

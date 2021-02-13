@@ -9,4 +9,12 @@ public class AirplaneCockpit {
         this.pilotName = pilotName;
         this.copilotName = copilotName;
     }
+
+    @Override
+    public String toString() {
+        return "AirplaneCockpit{" +
+                "pilotName='" + pilotName + '\'' +
+                ", copilotName='" + copilotName + '\'' +
+                '}';
+    }
 }

@@ -11,4 +11,13 @@ public class AirplaneEngine {
         this.fuelCapacity = fuelCapacity;
         this.currentFuelLevel = currentFuelLevel;
     }
+
+    @Override
+    public String toString() {
+        return "AirplaneEngine{" +
+                "engine='" + engine + '\'' +
+                ", fuelCapacity=" + fuelCapacity +
+                ", currentFuelLevel=" + currentFuelLevel +
+                '}';
+    }
 }
